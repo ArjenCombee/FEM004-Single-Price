@@ -13,17 +13,49 @@
     />
 
     <title>Frontend Mentor | Single Price Grid Component</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    Join our community 30-day, hassle-free money back guarantee Gain access to
-    our full library of tutorials along with expert code reviews. Perfect for
-    any developers who are serious about honing their skills. Monthly
-    Subscription &dollar;29 per month Full access for less than &dollar;1 a day
-    Sign Up Why Us Tutorials by industry experts Peer &amp; expert code review
-    Coding exercises Access to our GitHub repos Community forum Flashcard decks
-    New videos every week
-
+    <section class="price-component">
+      <section class="intro">
+        <h1 class="intro__heading">Join our community</h1>
+        <h3 class="intro__subheading">
+          30-day, hassle-free money back guarantee
+        </h3>
+        <p class="intro__body">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </section>
+      <section class="subscription">
+        <h2 class="subscription__heading">Monthly Subscription</h2>
+        <p class="subscription__price">&dollar;29 <span>per month</span></p>
+        <p class="subscription__body">
+          Full access for less than &dollar;1 a day
+        </p>
+        <a href="" class="btn cta">Sign Up</a>
+      </section>
+      <section class="why-us">
+        <h2 class="why-us__heading">Why Us</h2>
+        <p class="why-us__body">
+          <ul class="why-us__benefits">
+            <li class="why-us__benefits--item">Tutorials by industry experts</li>
+            <li class="why-us__benefits--item">Peer &amp; expert code review</li>
+            <li class="why-us__benefits--item">Coding exercises</li>
+            <li class="why-us__benefits--item">Access to our GitHub repos</li>
+            <li class="why-us__benefits--item">Community forum</li>
+            <li class="why-us__benefits--item">Flashcard decks</li>
+            <li class="why-us__benefits--item">New videos every week</li>
+          </ul>
+        </p>
+      </section>
+    </section>
     <footer>
       <p class="attribution">
         Challenge by
